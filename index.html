@@ -6,32 +6,55 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300..900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+
+  
+  
   <title>Frontend Mentor | Order summary card</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
+
 <body>
+  <main class="main">
+    <header class="header">
+      <img class="header__img" src="images/illustration-hero.svg" alt="A person in a green shirt dancing with headphones plugged into a phone.">
+      
+      <h1 class="header__title redHatDisplay__black">Order Summary</h1>
 
-  Order Summary
+      <p class="header__summary redHatDisplay__medium">You can now listen to millions of songs, audiobooks, and podcasts on any 
+      device anywhere you like!</p>
+    </header>
 
-  You can now listen to millions of songs, audiobooks, and podcasts on any 
-  device anywhere you like!
+    <section class="planSelect">
+      <img src="images/icon-music.svg" class="planSelect__musicIcon" alt="A pair of eigth notes.">
 
-  Annual Plan
-  $59.99/year
+      <div class="planSelect__details">
+        <div class="planSelect__planType redHatDisplay__black">
+          Annual Plan
+        </div>
 
-  Change
+        <div class="planSelect__planCost redHatDisplay__medium">
+          $59.99/year
+        </div>
+      </div>
 
-  Proceed to Payment
-  Cancel Order
+      <button class="planSelect__changeBtn redHatDisplay__bold">Change</button>
+
+    </section>
+
+    <button class="proceedBtn redHatDisplay__black">Proceed to Payment</button>
+
+    <button class="cancelBtn redHatDisplay__black">Cancel Order</button>
+  </main>
+
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="https://github.com/werue" target="_blank">W. E. Rue</a>.
   </div>
 </body>
 </html>
