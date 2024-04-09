@@ -163,3 +163,67 @@ button{
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
+
+@media(max-width: 640px){
+    body{
+        background-size: 640px 194px;
+        background-position:top;
+    }
+
+    .main{
+        width:327px;
+        height:567px;
+    }
+
+    .header__img{
+        width:327px;
+        height:160px;
+    }
+
+    .header__title{
+        width:263px;
+        height:29px;
+        margin-top:32px;
+        font-size:22px;
+    }
+
+    .header__summary{
+        width:263px;
+        height:75px;
+        margin-top:16px;
+        font-size:15px;
+    }
+
+    .planSelect{
+        width:279px;
+        height:81px;
+        padding:16px;
+        margin-top:24px;
+    }
+
+    .planSelect__details{
+        width:81px;
+        height:40px;
+        margin:0px 50px 0px 20px;
+        font-size:14px;
+    }
+
+    .planSelect__changeBtn{
+        width:48px;
+        height:17px;
+        font-size:13px;
+    }
+
+    .proceedBtn{
+        width:279px;
+        height:50px;
+        padding:15px 64px;
+        margin-top:24px;
+    }
+
+    .cancelBtn{
+        margin-top:24px;
+    }
+
+
+}
